@@ -157,4 +157,4 @@
 // System.out.println("Smallest number is : " + min);
 
 // }
-// }
+// for input
