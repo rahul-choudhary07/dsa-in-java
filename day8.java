@@ -419,3 +419,59 @@
 //         }
 //     }
 // }
+
+// chapter 5  loop in java  
+
+// qesution 1 
+
+// import java.util.*;
+
+// public class day8 {
+//     public static void main(String[] args) {
+//         for (int i = 0; i <= 100; i++) {
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+// question 2 
+
+// import java.util.*;
+
+// public class day8 {
+//     public static void main(String[] args) {
+//         // for input in java
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+
+//         // for out put
+
+//         for (int i = 1; i <= a; i++) {
+//             int sum = a * (a + 1) / 2;
+
+//             System.out.println(sum);
+//         }
+
+//     }
+// }
+
+// question 3 
+
+// import java.util.*;
+
+// public class day8 {
+//     public static void main(String[] args) {
+//         // for input in java
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+
+//         // for out put
+//         int factorial = 1;
+//         for (int i = 1; i <= a; i++) {
+//             factorial *= i;
+//             System.out.println(factorial);
+//         }
+
+//     }
+// }
+
