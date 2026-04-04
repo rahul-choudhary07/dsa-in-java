@@ -235,33 +235,33 @@
 // }
 
 // question in 3 
-import java.util.*;
+// import java.util.*;
 
-public class dayy10 {
-    public static void main(String[] args) {
-        // for input
-        Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-        int number[] = new int[size];
+// public class dayy10 {
+//     public static void main(String[] args) {
+//         // for input
+//         Scanner sc = new Scanner(System.in);
+//         int size = sc.nextInt();
+//         int number[] = new int[size];
 
-        // for input of number in array
-        for (int i = 0; i < size; i++) {
-            number[i] = sc.nextInt();
-        }
-        int odd = 0;
-        int even = 0;
-        // for output of array in java
-        for (int i = 0; i < size; i++) {
-            if (number[i] % 2 == 0) {
-                even++;
-            }
-            if (number[i] % 2 != 0) {
-                odd++;
-            }
-        }
+//         // for input of number in array
+//         for (int i = 0; i < size; i++) {
+//             number[i] = sc.nextInt();
+//         }
+//         int odd = 0;
+//         int even = 0;
+//         // for output of array in java
+//         for (int i = 0; i < size; i++) {
+//             if (number[i] % 2 == 0) {
+//                 even++;
+//             }
+//             if (number[i] % 2 != 0) {
+//                 odd++;
+//             }
+//         }
 
-        System.out.println(+even);
-        System.out.println(+odd);
+//         System.out.println(+even);
+//         System.out.println(+odd);
 
-    }
-}
+//     }
+// }
