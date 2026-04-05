@@ -69,26 +69,26 @@
 
 // find a factorial of a number
 
-// import java.util.*;
+import java.util.*;
 
-// public class day6 {
-// public static void printFactorial(int n ){
-// // we are using loop hare
-// int factorial = 1;
+public class day6 {
+public static void printFactorial(int n ){
+// we are using loop hare
+int factorial = 1;
 
-// for(int i = n; i>=1;i--){
-// factorial = factorial*i;
+for(int i = n; i>=1;i--){
+factorial = factorial*i;
 
-// }
-// System.out.println(factorial);
-// }
+}
+System.out.println(factorial);
+}
 
-// public static void main(String[] args) {
-// Scanner sc = new Scanner(System.in);
-// int a = sc.nextInt();
-// printFactorial(a);
-// }
-// }
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int a = sc.nextInt();
+printFactorial(a);
+}
+}
 
 // checking  if  prime  number  or  not  
 

@@ -125,37 +125,37 @@
 // }
 
 // question in java in array
-// import java.util.*;
+import java.util.*;
 
-// public class day9 {
-// public static void main(String[] args) {
-// // for input in java
-// Scanner sc = new Scanner(System.in);
-// int size = sc.nextInt();
-// int numbers[] = new int[size];
+public class day9 {
+public static void main(String[] args) {
+// for input in java
+Scanner sc = new Scanner(System.in);
+int size = sc.nextInt();
+int numbers[] = new int[size];
 
-// // for output of number
-// for (int i = 0; i < size; i++) {
-// numbers[i] = sc.nextInt();
+// for output of number
+for (int i = 0; i < size; i++) {
+numbers[i] = sc.nextInt();
 
-// }
+}
 
 // // for output in java of max and mini number
 
-// int max = Integer.MIN_VALUE;
-// int min = Integer.MAX_VALUE;
+int max = Integer.MIN_VALUE;
+int min = Integer.MAX_VALUE;
 
-// for (int i = 0; i < numbers.length; i++) {
-// if (numbers[i] < min) {
-// min = numbers[i];
-// }
-// if (numbers[i] > max) {
-// max = numbers[i];
-// }
-// }
-// System.out.println("Largest number is : " + max);
-// System.out.println("Smallest number is : " + min);
-
-// }
+for (int i = 0; i < numbers.length; i++) {
+if (numbers[i] < min) {
+min = numbers[i];
+}
+if (numbers[i] > max) {
+max = numbers[i];
+}
+}
+System.out.println("Largest number is : " + max);
+System.out.println("Smallest number is : " + min);
+}
+}
 // for input
 // for input  in java  in 
